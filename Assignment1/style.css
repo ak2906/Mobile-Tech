@@ -1,1 +1,236 @@
-
+.topnav {
+    overflow: hidden;
+    background-color: yellow;
+  }
+.topnavtext{
+    float: left;
+  color:black;
+  text-align: center;
+  padding: 14px 16px;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+  /* margin-left: 150px; */
+}
+.topnavtext:hover
+{
+  background-color: #2196F3;
+}
+.slash{
+    float:left;
+    padding-top: 14px;
+    font-size: 15px;
+    font-weight: bolder;
+    color: black;
+}
+.icon{
+    float:right;
+    margin-right: 200px;
+}
+.innerIcon{
+    padding-top: 5px;
+    height: 30px;
+    width: 30px;
+    padding-inline-start: 10px;
+}
+.logo{
+    height: 30px;
+    width: 30px;
+    padding-left: 10px;
+    padding-top: 10px;
+    float: left;
+}
+.lpad{
+    margin-left: 100px;
+}
+.MiddleText
+{
+    font-size: 25px;
+    font-weight: bold;
+    padding-top: 5px;
+    padding-left: 8px;
+    text-align: center;
+    float: left;
+}
+.middleNav{
+    overflow: hidden;
+    background-color:blanchedalmond;
+}
+.MiddleSubText
+{
+  font-size: 10px;
+  padding-top: 30px;
+  margin-left: -85px;
+  color: gray;
+  /* float:left; */
+}
+.steer
+{
+    float:left;
+}
+.floatl
+{
+    float:left;
+}
+.floatr
+{
+    float:right;
+}
+.icon1{
+  height: 35px;
+  width: 35px;
+  padding-top: 15px;
+  padding-right: 10px;
+  padding-left: 30px;
+  float: left;
+}
+.middlerightText
+{
+  float: left;
+  color: black;
+  text-align: center;
+  font-size: 12px;
+  font-weight: bold;
+  padding-top: 25px;
+}
+.bottomNav
+{
+  overflow: hidden;
+  background-color: #e9e9e9;
+  margin-top: 7px;
+}
+.bottom1
+{
+  float:left;
+  color:black;
+  text-align: center;
+  padding: 14px;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.bottom1:hover
+{
+  background-color: #2196F3;
+  
+}
+.wall
+{
+    width:100%;
+    height: 480px;
+}
+.footer
+{
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+}
+.subFooter
+{
+    text-align: center;
+    font-size: 17px;
+    color: gray;
+    font-weight: bold;
+    margin-top: 12px;
+}
+.diamond1 {
+    position: absolute;
+    left: 220px;
+    margin-top: 50px;
+}
+.diamond2 {
+    position: absolute;
+    left: 629.5px;
+    margin-top: 50px;
+  }
+  
+.diamond3 {
+    position: absolute;
+    left: 1041px;
+    margin-top: 50px;
+}
+.bound1 {
+    margin-left: 250px;
+    margin-top: 37px;
+    border: 3px solid yellow;
+    width: 325px;
+    padding-top: 5px;
+    padding-left: 40px;
+    padding-bottom: 15px;
+    float: left;
+    height: 80px;
+  }
+  .boundBold{
+    font-size: 19px;
+    font-weight: bold;
+  }
+  .boundLight
+  {
+      font-size: 13px;
+      font-weight: lighter;
+  }
+  .bound2
+  {
+    margin-left: 40px;
+    margin-top: 37px;
+    border: 3px solid yellow;
+    width: 325px;
+    padding-top: 5px;
+    padding-left: 40px;
+    padding-bottom: 15px;
+    float: left;
+    height: 80px;
+  }
+  .bound3
+  {
+    margin-left: 40px;
+    margin-top: 37px;
+    border: 3px solid yellow;
+    width: 325px;
+    padding-top: 5px;
+    padding-left: 40px;
+    padding-bottom: 15px;
+    float: left;
+    height: 80px;
+  }
+  form.example input[type=text] {
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid grey;
+    float: left;
+    width: 5%;
+    background: #f1f1f1;
+    margin-left: 800px;
+  }
+  
+  /* Style the submit button */
+  form.example button {
+    float: left;
+    width: 2%;
+    padding: 10px;
+    background: #2196F3;
+    color: white;
+    font-size: 17px;
+    border: 1px solid grey;
+    border-left: none; /* Prevent double borders */
+    cursor: pointer;
+    height: 42px;
+  }
+  
+  form.example button:hover {
+    background: #0b7dda;
+  }
+  
+  /* Clear floats */
+  form.example::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  .middleNav .search {
+    float: right;
+    margin-top: -8px;
+    padding-bottom: 6px;
+    margin-right: 120px;
+  }
